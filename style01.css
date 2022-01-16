@@ -1,0 +1,77 @@
+#parent{
+
+    padding:10px;
+}
+
+#child-1 {
+
+    box-sizing: border-box;
+    
+    padding: 5px;
+    }
+
+
+.map_image {
+    width: 95%;
+    height: 500px;
+    display: flex;
+    justify-content:space-between;
+    gap: 10px;
+    padding: 5px 35px;
+
+}
+
+.image_input {
+    width: 700px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px 50px;
+
+}
+
+#display_image{
+    width: 600px;
+    height: 450px;
+    border: 1px solid rgb(255, 255, 255);
+    background-position: center;
+    background-size: cover;
+}
+
+#child-2 {
+    height: 5%;
+    width: 65%;
+    box-sizing: border-box;
+    float: left;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+button {
+    display: inline-block;
+    padding:  10px;
+    margin-top: 5px;
+}
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px 25px;
+}
+
+#child-3 {
+    height: 70px;
+    width: 70%;
+    box-sizing: border-box;
+    float: right;
+    padding: 5px 50px;
+
+    }
+
